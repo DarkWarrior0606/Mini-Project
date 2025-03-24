@@ -17,8 +17,11 @@ This repository contains two cybersecurity tools designed to enhance security aw
 ✅ Monitors network activity for data exfiltration.
 
 ⚙️ Installation & Usage:
+
 cd Keylogger-Detector
+
 pip install -r requirements.txt
+
 python keylogger_detector.py
 
 **2️⃣ Phishing URL Detector**
@@ -30,6 +33,9 @@ python keylogger_detector.py
 ✅ Trains on a sample dataset and predicts phishing websites.
 
 ⚙️ Installation & Usage:
+
 cd Phishing-URL-Detector
+
 pip install -r requirements.txt
+
 python phishing_detector.py
