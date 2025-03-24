@@ -19,8 +19,11 @@ Detects registry modifications by potential keyloggers.
 Monitors network activity for data exfiltration.
 
 Installation & Usage:
+
 cd Keylogger-Detector
+
 pip install -r requirements.txt
+
 python keylogger_detector.py
 
 
@@ -35,6 +38,9 @@ Uses a machine learning model (Random Forest) for classification.
 Trains on a sample dataset and predicts phishing websites.
 
 Installation & Usage:
+
 cd Phishing-URL-Detector
+
 pip install -r requirements.txt
+
 python phishing_detector.py
