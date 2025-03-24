@@ -1,4 +1,4 @@
-#🛡️ CyberSecurity Tools: Keylogger Detector & Phishing URL Classifier
+**🛡️ CyberSecurity Tools: Keylogger Detector & Phishing URL Classifier**
 
 🚀 Overview
 
@@ -8,7 +8,7 @@ This repository contains two cybersecurity tools designed to enhance security aw
 
 🌐 Phishing URL Detector: Uses machine learning to classify URLs as phishing or legitimate based on URL patterns.
 
-1️⃣ Keylogger Detector
+**1️⃣ Keylogger Detector**
 
 🔍 Features:
 
@@ -21,7 +21,7 @@ cd Keylogger-Detector
 pip install -r requirements.txt
 python keylogger_detector.py
 
-2️⃣ Phishing URL Detector
+**2️⃣ Phishing URL Detector**
 
 🛡️ Features:
 
