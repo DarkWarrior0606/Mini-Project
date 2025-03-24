@@ -2,10 +2,10 @@ import psutil
 import pygetwindow as gw
 import winreg
 
-# List of suspicious process names (expand as needed)
+
 SUSPICIOUS_PROCESSES = ["keylogger.exe", "logger.exe", "hooker.exe"]
 
-# Function to check running processes
+
 def detect_suspicious_processes():
     for process in psutil.process_iter(['pid', 'name']):
         try:
@@ -14,7 +14,6 @@ def detect_suspicious_processes():
         except (psutil.NoSuchProcess, psutil.AccessDenied, psutil.ZombieProcess):
             pass
 
-# Function to check registry for suspicious entries (Windows only)
 def detect_registry_keyloggers():
     suspicious_keys = [
         r"Software\Microsoft\Windows\CurrentVersion\Run",  # Common autostart location
@@ -36,6 +35,5 @@ def detect_registry_keyloggers():
         except FileNotFoundError:
             pass
 
-# Run detection
 detect_suspicious_processes()
 detect_registry_keyloggers()
